@@ -3,9 +3,9 @@
  "redes": {
   "instagram": true,
   "facebook": true,
-  "youtube": true
+  "youtube": false
  },
- "youtube_privacidade": "private",
+ "youtube_privacidade": "public",
  "youtube_conteudo_alterado": false,
  "atraso_max_horas": 3
 }
