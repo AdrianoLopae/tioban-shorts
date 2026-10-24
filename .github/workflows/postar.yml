@@ -1,9 +1,10 @@
 name: Postar Shorts
 on:
   schedule:
-    # Brasília = UTC-3. A cada 20 min, das 08h03 às 23h43 (o GitHub às vezes atrasa alguns minutos).
-    - cron: "3,23,43 11-23 * * *"
-    - cron: "3,23,43 0-2 * * *"
+    # RESERVA (Brasília = UTC-3): a cada 10 min, das 07h04 às 23h54. Na prática o GitHub atrasa 30–50 min;
+    # com o PC ligado, o postar.py dispara este workflow na hora de cada vídeo (workflow_dispatch).
+    - cron: "4,14,24,34,44,54 10-23 * * *"
+    - cron: "4,14,24,34,44,54 0-2 * * *"
   workflow_dispatch:
 permissions:
   contents: write
