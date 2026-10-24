@@ -91,5 +91,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261024-1700-5",
+  "pasta": "Postar 24-10",
+  "numero": 5,
+  "titulo": "GTA 6 já tem 6,45 milhões de pré-vendas, diz estimativa",
+  "publicar_em": "2026-10-24T17:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-10-24T17:02:49-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18061372961538188",
+    "link": "https://www.instagram.com/reel/De48ZqfCodP/",
+    "quando": "2026-10-24T17:02:17-03:00"
+   },
+   "facebook": {
+    "id": "1652890229808602",
+    "link": "https://www.facebook.com/reel/1652890229808602",
+    "quando": "2026-10-24T17:02:48-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
