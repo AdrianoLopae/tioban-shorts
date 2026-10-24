@@ -113,5 +113,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261024-1900-6",
+  "pasta": "Postar 24-10",
+  "numero": 6,
+  "titulo": "GTA 6 pode fazer 1,5 milhão de americanos faltarem no trabalho",
+  "publicar_em": "2026-10-24T19:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-10-24T19:02:19-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18140381650540301",
+    "link": "https://www.instagram.com/reel/De5KApOiFlE/",
+    "quando": "2026-10-24T19:01:34-03:00"
+   },
+   "facebook": {
+    "id": "4528877957399837",
+    "link": "https://www.facebook.com/reel/4528877957399837",
+    "quando": "2026-10-24T19:02:19-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
