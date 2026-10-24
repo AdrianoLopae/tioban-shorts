@@ -1,0 +1,69 @@
+name: Postar Shorts
+on:
+  schedule:
+    # Brasília = UTC-3. A cada 20 min, das 08h03 às 23h43 (o GitHub às vezes atrasa alguns minutos).
+    - cron: "3,23,43 11-23 * * *"
+    - cron: "3,23,43 0-2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: postar
+  cancel-in-progress: false
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    outputs:
+      tem: ${{ steps.v.outputs.tem }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests
+      - id: v
+        run: python robo/postar.py verificar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TEM_IG_TOKEN: ${{ secrets.IG_TOKEN != '' }}
+          TEM_FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN != '' }}
+          TEM_YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN != '' }}
+  postar:
+    needs: verificar
+    if: needs.verificar.outputs.tem == '1'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests
+      - run: python robo/postar.py baixar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TEM_IG_TOKEN: ${{ secrets.IG_TOKEN != '' }}
+          TEM_FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN != '' }}
+          TEM_YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN != '' }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - run: python robo/postar.py publicar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PAGES_URL: ${{ steps.deploy.outputs.page_url }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}

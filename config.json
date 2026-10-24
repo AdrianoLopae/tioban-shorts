@@ -1,0 +1,11 @@
+{
+ "pausado": false,
+ "redes": {
+  "instagram": true,
+  "facebook": true,
+  "youtube": false
+ },
+ "youtube_privacidade": "public",
+ "youtube_conteudo_alterado": false,
+ "atraso_max_horas": 3
+}
