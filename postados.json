@@ -135,5 +135,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261025-0800-1",
+  "pasta": "Postar 25-10",
+  "numero": 1,
+  "titulo": "Se o GTA tivesse eleição, em quem você votaria?",
+  "publicar_em": "2026-10-25T08:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-10-25T07:59:44-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18119818817055945",
+    "link": "https://www.instagram.com/reel/De6jC6ejCd0/",
+    "quando": "2026-10-25T07:59:13-03:00"
+   },
+   "facebook": {
+    "id": "1120080440999444",
+    "link": "https://www.facebook.com/reel/1120080440999444",
+    "quando": "2026-10-25T07:59:43-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
