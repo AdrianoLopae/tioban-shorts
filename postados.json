@@ -157,5 +157,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261025-1300-2",
+  "pasta": "Postar 25-10",
+  "numero": 2,
+  "titulo": "O comercial de TV do GTA 6 cortou as cenas do chuveiro",
+  "publicar_em": "2026-10-25T13:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-10-25T13:02:24-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18094642370257110",
+    "link": "https://www.instagram.com/reel/De7Fn9_jyie/",
+    "quando": "2026-10-25T13:01:46-03:00"
+   },
+   "facebook": {
+    "id": "1745123776595365",
+    "link": "https://www.facebook.com/reel/1745123776595365",
+    "quando": "2026-10-25T13:02:23-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
