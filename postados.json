@@ -201,5 +201,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261026-0800-1",
+  "pasta": "Postar 26-10",
+  "numero": 1,
+  "titulo": "A Rockstar mandou kit do GTA 6 para youtubers brasileiros",
+  "publicar_em": "2026-10-26T08:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-10-26T08:22:30-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18105364631634526",
+    "link": "https://www.instagram.com/reel/De9KcL0nCTH/",
+    "quando": "2026-10-26T08:21:57-03:00"
+   },
+   "facebook": {
+    "id": "2560133201065265",
+    "link": "https://www.facebook.com/reel/2560133201065265",
+    "quando": "2026-10-26T08:22:29-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
