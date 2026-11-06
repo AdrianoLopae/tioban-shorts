@@ -249,5 +249,27 @@
   "erros": {
    "geral": "passou 3:00:00 do horário sem postar em tudo"
   }
+ },
+ {
+  "id": "20261106-1300-1",
+  "pasta": "Postar 06-11",
+  "numero": 1,
+  "titulo": "GTA 6 vai ser menos violento que Red Dead? Gameplayrj responde",
+  "publicar_em": "2026-11-06T13:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-06T13:13:10-03:00",
+  "postado": {
+   "instagram": {
+    "id": "17902346556416956",
+    "link": "https://www.instagram.com/reel/DfaAZ4LEe5k/",
+    "quando": "2026-11-06T13:12:38-03:00"
+   },
+   "facebook": {
+    "id": "1436242561998966",
+    "link": "https://www.facebook.com/reel/1436242561998966",
+    "quando": "2026-11-06T13:13:09-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
