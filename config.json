@@ -3,7 +3,7 @@
  "redes": {
   "instagram": true,
   "facebook": true,
-  "youtube": false
+  "youtube": true
  },
  "youtube_privacidade": "public",
  "youtube_conteudo_alterado": false,
