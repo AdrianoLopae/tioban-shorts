@@ -10,6 +10,7 @@ Redes ligadas = config.json -> redes (e o segredo da rede tem de existir). Nunca
 rede fica gravado no .json do item; o item só sai da fila quando todas as redes ligadas postaram, ou quando passa
 de atraso_max_horas do horário (aí vai para postados.json como "parcial" ou "perdido").
 """
+import base64
 import json
 import os
 import subprocess
@@ -109,7 +110,9 @@ def carregar(fila):
 
 
 def pendentes(d, redes):
-    return [r for r in redes if r not in d.get("postado", {})]
+    """Redes ligadas que ainda faltam. O item pode limitar as redes (ex.: horizontal não vai pro Instagram)."""
+    so = d.get("redes")
+    return [r for r in redes if r not in d.get("postado", {}) and (not so or r in so)]
 
 
 def do_horario(fila, redes):
@@ -166,6 +169,8 @@ def main(passo):
             fila.baixar(it["mp4"], video)
         d.setdefault("postado", {})
         d.setdefault("erros", {})
+        horizontal = d.get("formato") == "horizontal"
+        thumb = base64.b64decode(d["thumb_b64"]) if d.get("thumb_b64") else None
         for rede in pendentes(d, redes):
             try:
                 print(f"{NOMES[rede]}: postando {iid} {d['titulo']}")
@@ -179,14 +184,19 @@ def main(passo):
                     pid, link = ig.publicar(url, legenda(d))
                 elif rede == "facebook":
                     import fb
-                    pid, link = fb.publicar(video, legenda(d))
+                    if horizontal:
+                        pid, link = fb.publicar_video(video, d["titulo"], legenda(d), thumb)
+                    else:
+                        pid, link = fb.publicar(video, legenda(d))
                 else:
                     import yt
                     tags = [h for h in d.get("hashtags", "").split() if h.startswith("#")]
-                    desc = "\n\n".join(x for x in (d.get("descricao", ""), d.get("hashtags", "") + " #shorts") if x)
+                    fim = d.get("hashtags", "") + ("" if horizontal else " #shorts")
+                    desc = "\n\n".join(x for x in (d.get("descricao", ""), fim.strip()) if x)
                     pid, link = yt.publicar(video, d["titulo"], desc.strip(), tags,
                                             CONFIG.get("youtube_privacidade", "public"),
-                                            CONFIG.get("youtube_conteudo_alterado", False))
+                                            CONFIG.get("youtube_conteudo_alterado", False),
+                                            curto=not horizontal, thumb=thumb)
                 d["postado"][rede] = {"id": pid, "link": link,
                                       "quando": agora().astimezone(BRT).isoformat(timespec="seconds")}
                 d["erros"].pop(rede, None)

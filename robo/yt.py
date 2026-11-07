@@ -19,8 +19,8 @@ def _acesso():
     return r["access_token"]
 
 
-def publicar(caminho, titulo, descricao, tags, privacidade="public", conteudo_alterado=False):
-    """Devolve (id, link)."""
+def publicar(caminho, titulo, descricao, tags, privacidade="public", conteudo_alterado=False, curto=True, thumb=None):
+    """Devolve (id, link). curto=False: vídeo horizontal normal (não Short); thumb = bytes do jpg da capa."""
     titulo = titulo.replace("<", "").replace(">", "")[:100]
     tags_ok, total = [], 0
     for t in tags:
@@ -48,4 +48,9 @@ def publicar(caminho, titulo, descricao, tags, privacidade="public", conteudo_al
     if r.status_code >= 400:
         raise RuntimeError(f"YouTube: {r.status_code} {r.text[:400]}")
     vid = r.json()["id"]
-    return vid, f"https://youtube.com/shorts/{vid}"
+    if thumb:   # capa: se falhar (canal sem verificação etc.) o vídeo continua no ar com a capa automática
+        t = requests.post("https://www.googleapis.com/upload/youtube/v3/thumbnails/set", params={"videoId": vid},
+                          headers={**h, "Content-Type": "image/jpeg"}, data=thumb, timeout=120)
+        if t.status_code >= 400:
+            print(f"YouTube: capa não entrou ({t.status_code} {t.text[:200]})")
+    return vid, (f"https://youtube.com/shorts/{vid}" if curto else f"https://youtu.be/{vid}")
