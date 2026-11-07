@@ -325,5 +325,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261107-1600-2",
+  "pasta": "Postar 07-11",
+  "numero": 2,
+  "titulo": "A traição do Abel era armação: Paulinho enganou todo mundo no GTA RP",
+  "publicar_em": "2026-11-07T16:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-07T16:03:11-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18077306651468026",
+    "link": "https://www.instagram.com/reel/Dfc4qPEHISs/",
+    "quando": "2026-11-07T16:02:22-03:00"
+   },
+   "facebook": {
+    "id": "1467493718674254",
+    "link": "https://www.facebook.com/reel/1467493718674254",
+    "quando": "2026-11-07T16:03:06-03:00"
+   },
+   "youtube": {
+    "id": "Bu2ekYC4kvU",
+    "link": "https://youtube.com/shorts/Bu2ekYC4kvU",
+    "quando": "2026-11-07T16:03:10-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
