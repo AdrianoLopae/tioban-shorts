@@ -298,5 +298,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261107-1000-1",
+  "pasta": "Postar 07-11",
+  "numero": 1,
+  "titulo": "Chefe da Take-Two admite - GTA 6 vai ser pirateado",
+  "publicar_em": "2026-11-07T10:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-07T10:03:08-03:00",
+  "postado": {
+   "instagram": {
+    "id": "17994495102027785",
+    "link": "https://www.instagram.com/reel/DfcPcp8kR9V/",
+    "quando": "2026-11-07T10:02:26-03:00"
+   },
+   "facebook": {
+    "id": "1841643230324327",
+    "link": "https://www.facebook.com/reel/1841643230324327",
+    "quando": "2026-11-07T10:03:04-03:00"
+   },
+   "youtube": {
+    "id": "WvkCVaYYzAE",
+    "link": "https://youtube.com/shorts/WvkCVaYYzAE",
+    "quando": "2026-11-07T10:03:08-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
