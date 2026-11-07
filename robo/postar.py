@@ -52,6 +52,16 @@ def legenda(d):
     return "\n\n".join(x for x in (d["titulo"], d.get("descricao", ""), d.get("hashtags", "")) if x).strip()
 
 
+def legenda_ig(d):
+    """Instagram: REGRA do Adriano, nunca link na legenda (nem "Vídeo completo:"). Título curto."""
+    import re
+    desc = re.sub(r"\s*(V[íi]deo completo|Link|Assista)[^:\n]*:\s*\S*https?://\S+", "", d.get("descricao", ""), flags=re.I)
+    desc = re.sub(r"\S*(https?://|www\.|youtu\.be|\.com/)\S*", "", desc)
+    desc = "\n".join(l.rstrip(" :-") for l in desc.splitlines()).strip()
+    titulo = d.get("titulo_curto") or d["titulo"]
+    return "\n\n".join(x for x in (titulo, desc, d.get("hashtags", "")) if x).strip()
+
+
 def saida(chave, valor):
     arq = os.environ.get("GITHUB_OUTPUT")
     if arq:
@@ -181,7 +191,7 @@ def main(passo):
                         if requests.head(url, timeout=20).status_code == 200:
                             break
                         time.sleep(10)
-                    pid, link = ig.publicar(url, legenda(d))
+                    pid, link = ig.publicar(url, legenda_ig(d))
                 elif rede == "facebook":
                     import fb
                     if horizontal:
