@@ -379,5 +379,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261108-1200-3",
+  "pasta": "Postar 08-11",
+  "numero": 3,
+  "titulo": "GTA 6 na Globo e caixa revela 230 GB",
+  "publicar_em": "2026-11-08T12:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-08T12:01:48-03:00",
+  "postado": {
+   "facebook": {
+    "id": "2634599220322138",
+    "link": "https://www.facebook.com/1316887911517810/videos/2634599220322138",
+    "quando": "2026-11-08T12:01:42-03:00"
+   },
+   "youtube": {
+    "id": "zcFEm3llUo0",
+    "link": "https://youtu.be/zcFEm3llUo0",
+    "quando": "2026-11-08T12:01:48-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
