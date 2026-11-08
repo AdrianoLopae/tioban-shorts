@@ -428,5 +428,22 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261108-1900-4",
+  "pasta": "Postar 08-11",
+  "numero": 4,
+  "titulo": "A casa mais disputada do GTA RP",
+  "publicar_em": "2026-11-08T19:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-08T19:08:20-03:00",
+  "postado": {
+   "facebook": {
+    "id": "1440703022459514",
+    "link": "https://www.facebook.com/1316887911517810/videos/1440703022459514",
+    "quando": "2026-11-08T19:08:19-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
