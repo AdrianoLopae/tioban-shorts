@@ -401,5 +401,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261108-1600-2",
+  "pasta": "Postar 08-11",
+  "numero": 2,
+  "titulo": "GTA 6 apareceu na Globo",
+  "publicar_em": "2026-11-08T16:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-08T16:03:03-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18488036755118804",
+    "link": "https://www.instagram.com/reel/DffdW1NErgz/",
+    "quando": "2026-11-08T16:02:06-03:00"
+   },
+   "facebook": {
+    "id": "962875853211108",
+    "link": "https://www.facebook.com/reel/962875853211108",
+    "quando": "2026-11-08T16:02:59-03:00"
+   },
+   "youtube": {
+    "id": "6frOsncUuJc",
+    "link": "https://youtube.com/shorts/6frOsncUuJc",
+    "quando": "2026-11-08T16:03:03-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
