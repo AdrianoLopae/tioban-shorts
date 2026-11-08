@@ -352,5 +352,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261108-1000-1",
+  "pasta": "Postar 08-11",
+  "numero": 1,
+  "titulo": "No GTA RP ele prende gente na geladeira",
+  "publicar_em": "2026-11-08T10:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-08T10:02:49-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18093682793204437",
+    "link": "https://www.instagram.com/reel/Dfe0Kt2kbgj/",
+    "quando": "2026-11-08T10:01:51-03:00"
+   },
+   "facebook": {
+    "id": "1762304191517526",
+    "link": "https://www.facebook.com/reel/1762304191517526",
+    "quando": "2026-11-08T10:02:45-03:00"
+   },
+   "youtube": {
+    "id": "xowW2XQv8PI",
+    "link": "https://youtube.com/shorts/xowW2XQv8PI",
+    "quando": "2026-11-08T10:02:48-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
