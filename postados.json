@@ -472,5 +472,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261109-1200-3",
+  "pasta": "Postar 09-11",
+  "numero": 3,
+  "titulo": "GTA 6 não vem com mapa na caixa",
+  "publicar_em": "2026-11-09T12:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-09T12:33:33-03:00",
+  "postado": {
+   "facebook": {
+    "id": "2289597215290372",
+    "link": "https://www.facebook.com/1316887911517810/videos/2289597215290372",
+    "quando": "2026-11-09T12:33:22-03:00"
+   },
+   "youtube": {
+    "id": "hmeaQBRDJjg",
+    "link": "https://youtu.be/hmeaQBRDJjg",
+    "quando": "2026-11-09T12:33:32-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
