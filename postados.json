@@ -445,5 +445,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261109-1000-1",
+  "pasta": "Postar 09-11",
+  "numero": 1,
+  "titulo": "Ou me ajuda ou afunda junto no GTA RP",
+  "publicar_em": "2026-11-09T10:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-09T10:02:13-03:00",
+  "postado": {
+   "instagram": {
+    "id": "17980945109915168",
+    "link": "https://www.instagram.com/reel/DfhY9DJjL7F/",
+    "quando": "2026-11-09T10:01:27-03:00"
+   },
+   "facebook": {
+    "id": "2397141614429499",
+    "link": "https://www.facebook.com/reel/2397141614429499",
+    "quando": "2026-11-09T10:02:10-03:00"
+   },
+   "youtube": {
+    "id": "afL6_rzOf_8",
+    "link": "https://youtube.com/shorts/afL6_rzOf_8",
+    "quando": "2026-11-09T10:02:12-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
