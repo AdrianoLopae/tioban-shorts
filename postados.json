@@ -494,5 +494,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261109-1600-2",
+  "pasta": "Postar 09-11",
+  "numero": 2,
+  "titulo": "GTA 6 vem sem modo online",
+  "publicar_em": "2026-11-09T16:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-09T16:02:54-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18136866658671285",
+    "link": "https://www.instagram.com/reel/DfiCObjlCSo/",
+    "quando": "2026-11-09T16:02:08-03:00"
+   },
+   "facebook": {
+    "id": "1369516715103833",
+    "link": "https://www.facebook.com/reel/1369516715103833",
+    "quando": "2026-11-09T16:02:50-03:00"
+   },
+   "youtube": {
+    "id": "SwwbRYNd8tI",
+    "link": "https://youtube.com/shorts/SwwbRYNd8tI",
+    "quando": "2026-11-09T16:02:53-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
