@@ -538,5 +538,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261110-1000-1",
+  "pasta": "Postar 10-11",
+  "numero": 1,
+  "titulo": "GTA 6 está pronto e a espera acabou",
+  "publicar_em": "2026-11-10T10:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-10T10:02:45-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18129323045476196",
+    "link": "https://www.instagram.com/reel/Dfj9wm6jQJV/",
+    "quando": "2026-11-10T10:01:57-03:00"
+   },
+   "facebook": {
+    "id": "2704159026704843",
+    "link": "https://www.facebook.com/reel/2704159026704843",
+    "quando": "2026-11-10T10:02:40-03:00"
+   },
+   "youtube": {
+    "id": "FWakvubEHgA",
+    "link": "https://youtube.com/shorts/FWakvubEHgA",
+    "quando": "2026-11-10T10:02:44-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
