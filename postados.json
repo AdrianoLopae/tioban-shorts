@@ -614,5 +614,22 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261110-1900-4",
+  "pasta": "Postar 10-11",
+  "numero": 4,
+  "titulo": "Sequestro falso de 700 milhões no GTA RP",
+  "publicar_em": "2026-11-10T19:00:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-10T19:02:38-03:00",
+  "postado": {
+   "facebook": {
+    "id": "2343805499701091",
+    "link": "https://www.facebook.com/1316887911517810/videos/2343805499701091",
+    "quando": "2026-11-10T19:02:37-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
