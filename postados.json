@@ -729,5 +729,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0847-6",
+  "pasta": "Postar 18-11",
+  "numero": 6,
+  "titulo": "Davy Jones chocado com o gráfico do GTA 6",
+  "publicar_em": "2026-11-18T08:47:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T08:52:24-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18352293532286595",
+    "link": "https://www.instagram.com/reel/Df4cJKpAErm/",
+    "quando": "2026-11-18T08:51:51-03:00"
+   },
+   "facebook": {
+    "id": "1754497392292266",
+    "link": "https://www.facebook.com/reel/1754497392292266",
+    "quando": "2026-11-18T08:52:23-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
