@@ -773,5 +773,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0917-8",
+  "pasta": "Postar 18-11",
+  "numero": 8,
+  "titulo": "Esse piloto do GTA 6 parece o Trevor",
+  "publicar_em": "2026-11-18T09:17:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T09:22:45-03:00",
+  "postado": {
+   "instagram": {
+    "id": "17937252678145031",
+    "link": "https://www.instagram.com/reel/Df4fnREDY2s/",
+    "quando": "2026-11-18T09:22:14-03:00"
+   },
+   "facebook": {
+    "id": "1129753423096483",
+    "link": "https://www.facebook.com/reel/1129753423096483",
+    "quando": "2026-11-18T09:22:44-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
