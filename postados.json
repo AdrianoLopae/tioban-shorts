@@ -817,5 +817,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0947-9",
+  "pasta": "Postar 18-11",
+  "numero": 9,
+  "titulo": "Tem até tigre enjaulado no GTA 6",
+  "publicar_em": "2026-11-18T09:47:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T09:52:04-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18122379344086110",
+    "link": "https://www.instagram.com/reel/Df4i-GICiLA/",
+    "quando": "2026-11-18T09:51:33-03:00"
+   },
+   "facebook": {
+    "id": "1161379736571168",
+    "link": "https://www.facebook.com/reel/1161379736571168",
+    "quando": "2026-11-18T09:52:02-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
