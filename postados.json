@@ -702,5 +702,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0835-4",
+  "pasta": "Postar 18-11",
+  "numero": 4,
+  "titulo": "Davy Jones chorou antes do GTA 6 abrir",
+  "publicar_em": "2026-11-18T08:35:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T08:42:50-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18485051149119563",
+    "link": "https://www.instagram.com/reel/Df4a-liEuA7/",
+    "quando": "2026-11-18T08:41:55-03:00"
+   },
+   "facebook": {
+    "id": "2469461263795299",
+    "link": "https://www.facebook.com/reel/2469461263795299",
+    "quando": "2026-11-18T08:42:44-03:00"
+   },
+   "youtube": {
+    "id": "2WnYC8rkk0o",
+    "link": "https://youtube.com/shorts/2WnYC8rkk0o",
+    "quando": "2026-11-18T08:42:48-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
