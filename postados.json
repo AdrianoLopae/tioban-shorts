@@ -675,5 +675,32 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0835-3",
+  "pasta": "Postar 18-11",
+  "numero": 3,
+  "titulo": "GTA 6 tirou 99 e o Flow já jogou 100 horas",
+  "publicar_em": "2026-11-18T08:35:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T08:40:03-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18101866688087982",
+    "link": "https://www.instagram.com/reel/Df4auYBjoIU/",
+    "quando": "2026-11-18T08:39:28-03:00"
+   },
+   "facebook": {
+    "id": "1642017864085833",
+    "link": "https://www.facebook.com/reel/1642017864085833",
+    "quando": "2026-11-18T08:39:59-03:00"
+   },
+   "youtube": {
+    "id": "rUBXqLdaOm0",
+    "link": "https://youtube.com/shorts/rUBXqLdaOm0",
+    "quando": "2026-11-18T08:40:02-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
