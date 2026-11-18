@@ -751,5 +751,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0902-7",
+  "pasta": "Postar 18-11",
+  "numero": 7,
+  "titulo": "O mapa do GTA 6 é gigante e em 3D",
+  "publicar_em": "2026-11-18T09:02:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T09:06:58-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18148692466583134",
+    "link": "https://www.instagram.com/reel/Df4d0Drmdb5/",
+    "quando": "2026-11-18T09:06:28-03:00"
+   },
+   "facebook": {
+    "id": "2228666147716628",
+    "link": "https://www.facebook.com/reel/2228666147716628",
+    "quando": "2026-11-18T09:06:58-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
