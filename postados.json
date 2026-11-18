@@ -795,5 +795,27 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0932-5",
+  "pasta": "Postar 18-11",
+  "numero": 5,
+  "titulo": "GTA 6 roda a 30 FPS: dá pra notar?",
+  "publicar_em": "2026-11-18T09:32:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T09:37:36-03:00",
+  "postado": {
+   "instagram": {
+    "id": "18008119277793828",
+    "link": "https://www.instagram.com/reel/Df4hVAsjYIg/",
+    "quando": "2026-11-18T09:37:05-03:00"
+   },
+   "facebook": {
+    "id": "2081955505792855",
+    "link": "https://www.facebook.com/reel/2081955505792855",
+    "quando": "2026-11-18T09:37:34-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
