@@ -658,5 +658,22 @@
    }
   },
   "erros": {}
+ },
+ {
+  "id": "20261118-0829-2",
+  "pasta": "Postar 18-11",
+  "numero": 2,
+  "titulo": "A reação dos youtubers ao abrir o GTA 6",
+  "publicar_em": "2026-11-18T08:29:00-03:00",
+  "situacao": "postado",
+  "registrado_em": "2026-11-18T08:34:42-03:00",
+  "postado": {
+   "facebook": {
+    "id": "1118641720788877",
+    "link": "https://www.facebook.com/1316887911517810/videos/1118641720788877",
+    "quando": "2026-11-18T08:34:41-03:00"
+   }
+  },
+  "erros": {}
  }
 ]
